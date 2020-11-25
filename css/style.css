@@ -1,0 +1,27 @@
+.row{
+  text-align: center;
+}
+body .bl-navbar{
+  background-color:  white;
+}
+body .bl-navbar {
+  margin: 0;
+  border: 0;
+  border-radius: 0px;
+}
+body .bl-navbar .navbar-brand, body .bl-navbar .navbar-nav>li>a {
+  color: #516081;
+}
+.navbar-brand img {
+  height: 22px;
+  width: auto;
+}
+.navbar-center {
+  margin-left: 100px;
+}
+#SignIn{
+  border-radius: 5px 5px;
+  border: 1px solid #076fff;
+  background-color: white;
+  color: #076fff;
+}
