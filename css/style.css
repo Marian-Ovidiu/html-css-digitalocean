@@ -23,8 +23,8 @@ body .bl-navbar .navbar-brand, body .bl-navbar .navbar-nav>li>a {
   color: #076fff;
 }
 .copertina {
-background-color: #004aff;
-padding: 25px 0;
+  background-color: #004aff;
+  padding: 25px 0;
 }
 .titolo {
   font-size: 45px;
@@ -38,6 +38,7 @@ form {
   background-color: white;
   padding: 20px;
   text-align: center;
+  border-radius: 5px 5px 5px;
 }
 .titolo-form {
 color: #031c4e;
@@ -53,21 +54,35 @@ input {
   width: 350px;
   border: 1px solid lightgrey;
 }
-#createAccount, #signUpGoogle {
+#createAccount {
   width: 350px;
   border-radius: 5px 5px;
   margin-bottom: 5px;
   border: none;
-}
-#createAccount{
   background-color: #579aff;
 }
-#signUpGoogle{
-  background-color: white;
-  color: black;
-  box-shadow: 1px 1px 3px;
+.btn-block #google {
+  text-align: left;
+  display: inline-block;
 }
 .text2-form{
   margin-top: 10px;
   font-size: 12px;
+}
+.customers {
+  background-color: #f3f5f9;
+  padding: 15px 0;
+  text-align: center;
+}
+.text-customers {
+  font-size: 14px;
+  color: grey;
+}
+.img-container {
+  margin: 15px 0;
+  display: inline-block;
+}
+.img-container img {
+  height: auto;
+  width: 150px;
 }
