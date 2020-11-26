@@ -45,7 +45,6 @@ color: #031c4e;
 font-size: 20px;
 font-weight: bold;
 text-align: center;
-
 }
 .text-form {
 color: #076fff;
@@ -71,11 +70,11 @@ input {
   margin-top: 10px;
   font-size: 12px;
 }
-.customers, .designed {
-  padding: 25px 0;
+.customers, .designed, .theFeatures, .service, .development {
+  padding: 30px 0;
   text-align: center;
 }
-.customers, .designed {
+.customers, .designed, .development {
   background-color: #f3f5f9;
 }
 .text-customers {
@@ -100,7 +99,6 @@ input {
   color: gray;
   text-align: center;
   font-size: 17px;
-  padding-bottom: 25px;
 }
 .lista {
   border-left: 1px solid gray;
@@ -128,6 +126,9 @@ ul li {
   font-size: 14px;
   text-align: left;
 }
+.container-deploy {
+  height: 170px;
+}
 .container-img-designed {
   text-align: center;
 }
@@ -149,4 +150,63 @@ ul li {
 }
 .circle > .fa-circle, .circle > .fa-circle-o {
   color: #579aff;
+}
+.more {
+  padding-top: 5px;
+}
+.service {
+  background-color: #0042c0;
+}
+.white {
+  color: white;
+}
+.container-service:first-child{
+  margin-top: 10px;
+}
+.container-service:nth-child(6),
+.container-service:nth-child(12) {
+  border: none;
+}
+
+.container-service{
+  border-bottom: 1px solid white;
+  margin: 5px 0;
+}
+.first-text, .second-text, .test-speed-text {
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.first-text{
+  font-weight: bolder;
+}
+.second-text{
+  text-align: center;
+  margin: 0 90px 0 50px;
+}
+.test-speed-text{
+  text-align: right;
+}
+.nested-development{
+  margin: 50px 0;
+}
+.container-development{
+  margin: auto;
+  background-color: white;
+  padding: 40px 0;
+}
+.container-development img {
+  height: auto;
+  width: 250px;
+  padding: 40px 0;
+}
+.name{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.cto{
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 14px;
 }
