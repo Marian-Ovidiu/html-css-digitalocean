@@ -23,7 +23,7 @@ body .bl-navbar .navbar-brand, body .bl-navbar .navbar-nav>li>a {
   color: #076fff;
 }
 .copertina {
-  background-color: #004aff;
+  background-image: url("../img/background.jpg");
   padding: 25px 0;
 }
 .titolo {
@@ -40,10 +40,12 @@ form {
   text-align: center;
   border-radius: 5px 5px 5px;
 }
-.titolo-form {
+.titolo-blue {
 color: #031c4e;
 font-size: 20px;
 font-weight: bold;
+text-align: center;
+
 }
 .text-form {
 color: #076fff;
@@ -85,4 +87,42 @@ input {
 .img-container img {
   height: auto;
   width: 150px;
+}
+.deploy {
+  padding: 40px;
+}
+.higher{
+  font-size: 25px;
+}
+.gray {
+  color: gray;
+  text-align: center;
+  font-size: 17px;
+  padding-bottom: 25px;
+}
+.lista {
+  border-left: 1px solid gray;
+}
+ul{
+  list-style: none;
+}
+ul li {
+  margin: 10px 0;
+  font-size: 16px;
+  color: grey;
+}
+.table-deploy {
+  padding: 0 15px;
+}
+.img-container-deploy > img {
+  height: 40px;
+  width: auto;
+}
+.title-smaller{
+  font-size: 17px;
+  text-align:  left;
+}
+.text-smaller {
+  font-size: 14px;
+  text-align: left;
 }
