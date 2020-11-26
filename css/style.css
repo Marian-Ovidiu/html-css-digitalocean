@@ -71,10 +71,12 @@ input {
   margin-top: 10px;
   font-size: 12px;
 }
-.customers {
-  background-color: #f3f5f9;
-  padding: 15px 0;
+.customers, .designed {
+  padding: 25px 0;
   text-align: center;
+}
+.customers, .designed {
+  background-color: #f3f5f9;
 }
 .text-customers {
   font-size: 14px;
@@ -125,4 +127,26 @@ ul li {
 .text-smaller {
   font-size: 14px;
   text-align: left;
+}
+.container-img-designed {
+  text-align: center;
+}
+.container-img-designed > img, .chevron {
+  height: 345px;
+  width: auto;
+}
+.chevron{
+  font-size: 30px;
+  line-height: 345px;
+}
+.text-designed{
+  padding: 15px 0;
+  color: #031c4e;
+  font-weight: bold;
+}
+.circle{
+  display: inline-block;
+}
+.circle > .fa-circle, .circle > .fa-circle-o {
+  color: #579aff;
 }
