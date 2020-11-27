@@ -85,7 +85,7 @@ input {
   color: grey;
 }
 .img-container {
-  margin: 15px 0;
+  margin: 15px 10px;
   display: inline-block;
 }
 .img-container img {
@@ -93,7 +93,7 @@ input {
   width: 115px;
 }
 .deploy {
-  padding: 40px;
+  padding: 40px 0;
 }
 .higher{
   font-size: 25px;
@@ -140,7 +140,7 @@ ul li {
 }
 .container-img-designed > img{
   height: auto;
-  width: 450px;
+  width: 75%;
   vertical-align: middle;
 }
 body .fa-chevron-left, body .fa-chevron-right{
@@ -210,7 +210,7 @@ body .fa-chevron-left, body .fa-chevron-right{
 }
 .container-development img {
   height: auto;
-  width: 250px;
+  width: 100%;
   padding: 40px 0;
 }
 .name{
