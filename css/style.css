@@ -27,7 +27,7 @@ body .bl-navbar .navbar-brand, body .bl-navbar .navbar-nav>li>a {
   padding: 25px 0;
 }
 .titolo {
-  font-size: 45px;
+  font-size: 40px;
   color: white;
 }
 .text {
@@ -52,18 +52,21 @@ font-size: 20px;
 font-weight: bold;
 }
 input {
-  width: 350px;
+  width: 95%;
   border: 1px solid lightgrey;
 }
 #createAccount {
-  width: 350px;
+  width: 95%;
   border-radius: 5px 5px;
   margin-bottom: 5px;
   border: none;
   background-color: #579aff;
 }
-.btn-block #google {
-  text-align: left;
+#google{
+  display: inline-block;
+}
+.btn-block {
+  width: 95%;
   display: inline-block;
 }
 .text2-form{
@@ -87,7 +90,7 @@ input {
 }
 .img-container img {
   height: auto;
-  width: 150px;
+  width: 115px;
 }
 .deploy {
   padding: 40px;
@@ -126,19 +129,23 @@ ul li {
   font-size: 14px;
   text-align: left;
 }
+.img-container-deploy{
+  text-align: left;
+}
 .container-deploy {
-  height: 170px;
+  min-height: 170px;
 }
 .container-img-designed {
   text-align: center;
 }
 .container-img-designed > img, .chevron {
-  height: 345px;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 .chevron{
+  line-height: 270px;
   font-size: 30px;
-  line-height: 345px;
+  margin: 0 -10px;
 }
 .text-designed{
   padding: 15px 0;
@@ -155,22 +162,23 @@ ul li {
   padding-top: 5px;
 }
 .service, .getStarted {
-  background-color: #0042c0;
+  background-image: url("../img/background.jpg");
 }
 .white {
   color: white;
 }
-.container-service:first-child{
-  margin-top: 10px;
+.container-service:first-child,
+.container-service:nth-child(7){
+  margin-top: 25px;
 }
 .container-service:nth-child(6),
 .container-service:nth-child(12) {
   border: none;
 }
-
 .container-service{
   border-bottom: 1px solid white;
   margin: 5px 0;
+
 }
 .first-text, .second-text, .test-speed-text {
   display: inline-block;
@@ -182,11 +190,12 @@ ul li {
   font-weight: bolder;
 }
 .second-text{
-  text-align: center;
-  margin: 0 90px 0 50px;
+  width: 100%;
+  margin-left: 40px;
+  text-align: left;
 }
-.test-speed-text{
-  text-align: right;
+.test-speed-text > a{
+  color:white;
 }
 .nested-development{
   margin: 50px 0;
@@ -255,4 +264,7 @@ ul li {
   color: white;
   font-size: 13px;
   margin: 5px 0;
+}
+@media screen and (max-width: 768px) {
+
 }
