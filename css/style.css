@@ -136,16 +136,16 @@ ul li {
   min-height: 170px;
 }
 .container-img-designed {
-  text-align: center;
+  margin: 20px 0;
 }
-.container-img-designed > img, .chevron {
+.container-img-designed > img{
   height: auto;
-  width: 100%;
+  width: 450px;
+  vertical-align: middle;
 }
-.chevron{
-  line-height: 270px;
+body .fa-chevron-left, body .fa-chevron-right{
+  margin: 0 10px;
   font-size: 30px;
-  margin: 0 -10px;
 }
 .text-designed{
   padding: 15px 0;
@@ -204,6 +204,8 @@ ul li {
   margin: auto;
   background-color: white;
   padding: 40px 0;
+  vertical-align: middle;
+  display: inline-block;
 }
 .container-development img {
   height: auto;
