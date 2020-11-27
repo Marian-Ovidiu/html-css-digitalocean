@@ -206,6 +206,7 @@ body .fa-chevron-left, body .fa-chevron-right{
   padding: 40px 0;
   vertical-align: middle;
   display: inline-block;
+  width: 70%;
 }
 .container-development img {
   height: auto;
